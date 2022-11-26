@@ -48,6 +48,7 @@
             display: inline-block;
             border-radius: 4px;
             line-height: 18px;
+            transition: all 1s;
         }
 
         nav>a:hover {
@@ -70,6 +71,49 @@
             float: left;
         }
 
+        h1 {
+            color: #3F4371;
+            font-size: 55px;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        h1>span {
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.3em;
+            letter-spacing: 1px;
+            word-spacing: 3px;
+        }
+
+        main>div>a {
+            background-color: #3F4371;
+            color: #fff;
+            padding: 0.5em;
+            font-size: 20px;
+            padding-left: 3em;
+            padding-right: 3em;
+            border-radius: 0.3em;
+            text-decoration: none;
+            display: inline-block;
+            text-transform: uppercase;
+            box-shadow: 0px 0.5em 0.2em -0.45em #888;
+            transition: all 1s;
+        }
+        
+        main>div>a:hover {
+            box-shadow: 0px 0.6em 0.4em -0.5em #555;
+        }
+
+        div>div {
+            margin-top: 50px;
+        }
+
+        div>div>a {}
+
         main>img {
             width: 60%;
             float: right;
@@ -91,7 +135,14 @@
 
     <main>
         <div>
-            LEFT CONTENT 
+             <h1>A happy <span>weekend</span></h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corrupti corporis ab nam tenetur mollitia soluta molestiae deserunt temporibus odio. Dolore delectus consectetur cupiditate eos quos voluptates eum autem voluptate?</p>
+             <a href="#">More</a>
+             <div>
+                <a href="#">Ig</a>
+                <a href="#">In</a>
+                <a href="#">Fb</a>
+             </div>
         </div>
         <img src="./img/katukas.png" alt="katukas">
     </main>
