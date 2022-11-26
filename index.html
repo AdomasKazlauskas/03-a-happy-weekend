@@ -29,8 +29,19 @@
             float: left;
         }
 
-        nav {
+        header>nav {
             float: right;
+        }
+
+        nav>a {
+            font-size: 18px;
+            text-decoration: none;
+            color: #3F4371;
+            margin-left: 50px;
+        }
+
+        nav>a:first-child {
+            margin-left: 0;
         }
 
         main {
@@ -55,8 +66,12 @@
 <body>
     <header>
        <img src="./img/logo.png" alt="logo"> 
-       <nav>
-            LINKS
+       <nav style="font-family: Arial">
+            <a href="#">Home</a>
+            <a href="#">Project</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
        </nav>
     </header>
 
