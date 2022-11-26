@@ -22,7 +22,7 @@ Design: [Happy weekend](./design/Happy%20weekend%20design.webp)
 
 -   Github pages
 -   basic [HTML (structure)](https://www.w3schools.com/TAGS/default.asp) and CSS (style)
--   [markdown] (https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+-   [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -   FontAwesome icons
 -   fixed width content (desktop only)
 
