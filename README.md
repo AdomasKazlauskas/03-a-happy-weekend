@@ -14,7 +14,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://github.com/AdomasKazlauskas/03-a-happy-weekend/
+Site published at: https://adomaskazlauskas.github.io/03-a-happy-weekend/
 
 Design: [Happy weekend](./design/Happy%20weekend%20design.webp)
 
