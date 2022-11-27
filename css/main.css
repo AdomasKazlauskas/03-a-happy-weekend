@@ -107,6 +107,11 @@ body {
     line-height: 30px;
     float: left;
     margin-right: 15px;
+    transition: all 1s;
+}
+
+.socials > .icon:hover {
+    box-shadow: 0 2px 6px #777;
 }
 
 .right-column {
